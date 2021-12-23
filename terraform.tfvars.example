@@ -1,0 +1,4 @@
+image_tag         = "1.1.8"
+app_key           = ""
+database_password = ""
+migrate_database  = true
