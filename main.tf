@@ -21,6 +21,10 @@ module "migrate" {
   database_host     = module.database.database_host
   database_password = module.database.password
   database_username = module.database.username
+
+  depends_on = [
+    module.database,
+  ]
 }
 
 module "secrets" {

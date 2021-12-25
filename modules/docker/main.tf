@@ -8,7 +8,7 @@ module "mirror" {
   version     = "0.5.0"
   image_name  = "dawidholka/router"
   image_tag   = var.image_tag
-  dest_prefix = "eu.gcr.io/hr-tool-313509"
+  dest_prefix = "eu.gcr.io/${var.gcp_project}"
 }
 
 output "container_image" {
