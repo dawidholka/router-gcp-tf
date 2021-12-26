@@ -1,6 +1,6 @@
 gcp_project       = ""
 gcp_region        = "europe-west1"
-image_tag         = "1.1.8"
+image_tag         = "1.2"
 app_key           = ""
 database_password = ""
 migrate_database  = true
